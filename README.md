@@ -31,7 +31,29 @@ Arrr! This page be lost at sea, matey!
 - CSS
 - Chrome Extension Manifest V3
 
+## Roadmap
+
+### Version 1.0
+- Translate common web errors into pirate speak
+- Lightweight content script
+- Works on Chromium-based browsers
+
+### Planned Features
+- Detect dynamic errors using MutationObserver
+- Support 404, 403, 500, 502, 503, 504 and more
+- Pirate dictionary for natural translations
+- Random pirate phrases for each error
+- Smarter error detection to avoid changing random numbers
+- Better pirate-themed styling
+- Skip code blocks, forms, and editable fields
+- Unit tests for translation logic
+- Support more websites and frameworks
+- Improve performance on large pages
+
+## Contributing
+
+Pull requests, bug reports, and feature suggestions are welcome.
 
 ## License
 
-MIT License
+This project is licensed under the MIT License.
