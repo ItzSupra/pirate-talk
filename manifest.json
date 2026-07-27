@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "Pirate Talk",
+    "version": "1.0",
+    "description": "A Chrome extension that translates web errors into pirate speak.",
+    "content_scripts": [
+        {
+            "matches": ["<all_urls>"],
+            "js": ["content.js"],
+            "css": ["style.css"]
+        }
+    ]
+}
