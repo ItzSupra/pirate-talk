@@ -14,7 +14,10 @@ function piratefy() {
         text = text.replace(pattern, replacement);
       });
 
-      el.textContent = text;
+      if (text !== el.textContent) {
+    el.textContent = text;
+    el.classList.add("pirate-talk");
+}
     }
   });
 }

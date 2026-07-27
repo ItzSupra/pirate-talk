@@ -1,0 +1,7 @@
+/* Pirate Talk v1.0 */
+.pirate-talk {
+    color: #8b0000;
+    font-weight: bold;
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+}
